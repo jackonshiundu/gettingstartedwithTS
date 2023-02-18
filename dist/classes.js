@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 class Employee {
     //constructors
     constructor(id, name, adress) {
@@ -23,6 +24,10 @@ class Employee {
     set setId(id) {
         this.id = id;
     }
+    //importing an Interface
+    Login() {
+        return { name: 'jackon', id: 23, age: 45, email: 'jackon20@gmail.com' };
+    }
 }
 //instances
 let john = new Employee(45, 'jackon', 'nairobi');
@@ -41,3 +46,4 @@ console.log(james.getManager());
 console.log(james.getId);
 james.setId = 66;
 console.log(james.getId);
+console.log(john.Login());
