@@ -32,3 +32,9 @@ function swapNUmunbers(num1, name) {
 swapNum = swapNUmunbers(20, 'jackon');
 console.log(swapNum[1]);
 //any
+//no type checking
+let thisNum;
+thisNum = '78';
+thisNum = 45;
+//void
+//never
